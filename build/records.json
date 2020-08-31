@@ -1,0 +1,144 @@
+{
+  "HtmlWebpackCompiler": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "HtmlWebpackPlugin_0": 0
+        },
+        "bySource": {
+          "0 HtmlWebpackPlugin_0": 0
+        },
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "modules": {
+    "byIdentifier": {
+      "multi webpack/hot/dev-server webpack-dev-webpack/client?http://localhost:8080 ./src/frontend/main.js": 0,
+      "multi ./src/frontend/main.js": 0,
+      "multi ./src/backend/main.server.js": 0,
+      "multi webpack/hot/signal ./src/backend/main.server.js": 0,
+      "multi webpack/hot/dev-server ./src/frontend/main.js": 0,
+      "webpack-api-plugin/api": 1,
+      "multi webpack/hot/signal ./src/backend/main.electron.js": 0,
+      "multi ./src/frontend/preload.renderer.js": 0,
+      "multi webpack/hot/signal ./src/frontend/preload.renderer.js": 0,
+      "multi webpack/hot/dev-server ./src/frontend/preload.renderer.js": 0,
+      "multi webpack-hot-middleware/client?name=client&noInfo=true ./src/frontend/main.js": 0,
+      "multi ./src/backend/main.electron.js": 0,
+      "multi webpack/hot/signal source-map-support/register ./src/backend/main.server.js": 0,
+      "multi webpack/hot/signal source-map-support/register ./src/backend/main.electron.js": 0
+    },
+    "usedIds": {
+      "0": 0,
+      "1": 1
+    }
+  },
+  "chunks": {
+    "byName": {
+      "main": 3,
+      "runtime": 3,
+      "vendor": 2
+    },
+    "bySource": {
+      "0 src/backend/api lazy /^\\.\\/.*$/ groupOptions: {} namespace object ./user.api": 0,
+      "0 src/backend/api lazy /^\\.\\/.*$/ groupOptions: {} namespace object ./user.api.js": 0,
+      "2 main": 0,
+      "0 main": 3,
+      "1 main": 2,
+      "0 .yarn/$$virtual/babel-loader-virtual-9c2af067bd/0/cache/babel-loader-npm-8.1.0-e8c38740ba-f7b236a5f7.zip/node_modules/babel-loader/lib/index.js??ref--4-0!.yarn/$$virtual/eslint-loader-virtual-8386ecfa86/0/cache/eslint-loader-npm-4.0.2-0ac00b0841-2f1ecbdd07.zip/node_modules/eslint-loader/dist/cjs.js??ref--4-1!src/backend/main.electron.js ./main.server": 0,
+      "0 .yarn/$$virtual/babel-loader-virtual-3d45f1f2d9/0/cache/babel-loader-npm-8.1.0-e8c38740ba-f7b236a5f7.zip/node_modules/babel-loader/lib/index.js??ref--4-0!.yarn/$$virtual/eslint-loader-virtual-177c302b39/0/cache/eslint-loader-npm-4.0.2-0ac00b0841-2f1ecbdd07.zip/node_modules/eslint-loader/dist/cjs.js??ref--4-1!src/backend/main.electron.js ./main.server": 1
+    },
+    "usedIds": [
+      3
+    ]
+  },
+  "prepreHash": "622f53e6415685ed8fc4",
+  "preHash": "2097b359940e90cc5e4f",
+  "hash": "6502f309fe1fcf4c6ba5",
+  "moduleHashs": {
+    "multi webpack/hot/signal source-map-support/register ./src/backend/main.electron.js": "b3d18d1de7a3ae809349339485f6f50f",
+    "/home/jonathan/Coding/Javascript/genesis-template/.yarn/$$virtual/babel-loader-virtual-3d45f1f2d9/0/cache/babel-loader-npm-8.1.0-e8c38740ba-f7b236a5f7.zip/node_modules/babel-loader/lib/index.js??ref--4-0!/home/jonathan/Coding/Javascript/genesis-template/.yarn/$$virtual/eslint-loader-virtual-177c302b39/0/cache/eslint-loader-npm-4.0.2-0ac00b0841-2f1ecbdd07.zip/node_modules/eslint-loader/dist/cjs.js??ref--4-1!/home/jonathan/Coding/Javascript/genesis-template/src/backend/main.server.js": "faf26362b4c0e3c234486ccac01d0186",
+    "/home/jonathan/Coding/Javascript/genesis-template/.yarn/$$virtual/webpack-virtual-1f0e253e0b/0/cache/webpack-npm-4.44.1-977bccfd33-d4d140010b.zip/node_modules/webpack/hot/log.js": "761aba8ffa677c40953e8bc80e166f71",
+    "external \"webpack-api-plugin-middleware-server\"": "e975ffbe4c0a60acb87c85ddc2c11f8e",
+    "/home/jonathan/Coding/Javascript/genesis-template/.yarn/$$virtual/babel-loader-virtual-3d45f1f2d9/0/cache/babel-loader-npm-8.1.0-e8c38740ba-f7b236a5f7.zip/node_modules/babel-loader/lib/index.js??ref--4-0!/home/jonathan/Coding/Javascript/genesis-template/.yarn/$$virtual/eslint-loader-virtual-177c302b39/0/cache/eslint-loader-npm-4.0.2-0ac00b0841-2f1ecbdd07.zip/node_modules/eslint-loader/dist/cjs.js??ref--4-1!/home/jonathan/Coding/Javascript/genesis-template/src/backend/main.electron.js": "2089b90c3fb580e98b34479adeb0c95b",
+    "external \"commander\"": "e05d084f8f43eabe1b4c8900a180405d",
+    "external \"https\"": "d661e2d71c1f2b4625a5e1e63c97d6b9",
+    "external \"/home/jonathan/Coding/Javascript/genesis-template/build/main.js\"": "d9e7ffa63a8f64bbc2e3c0ac903209bf",
+    "external \"electron-devtools-installer\"": "720726063809fb450b23cfc918cd4837",
+    "external \"webpack-api-plugin-electron-ipc-main-server\"": "3ce6e311cf49edea05b6fdd1627206c7",
+    "external \"http\"": "bd43ff2354b850f768512da1fab4f57b",
+    "external \"electron\"": "81d15eeb90994dd6cb3ae351befb39aa",
+    "external \"webpack-dev-middleware\"": "4a8759bdc89544e072555ee3a7b83b38",
+    "external \"express\"": "4757b20bf72ac12db321a5a966416df6",
+    "external \"webpack\"": "a279b4fae78d2d07b0a43685ab06ecac",
+    "/home/jonathan/Coding/Javascript/genesis-template/.yarn/cache/webpack-recursive-loader-npm-1.0.4-e2daaca0eb-bec1249ff5.zip/node_modules/webpack-recursive-loader/dist/loader.js?_webpackApiPluginServerRecursive&path=%2Fhome%2Fjonathan%2FCoding%2FJavascript%2Fgenesis-template%2Fsrc%2Fbackend%2Fapi!/home/jonathan/Coding/Javascript/genesis-template/.yarn/cache/webpack-recursive-loader-npm-1.0.4-e2daaca0eb-bec1249ff5.zip/node_modules/webpack-recursive-loader/null": "3125ce9c32dc9a2072ca7adbe99bd5ba",
+    "/home/jonathan/Coding/Javascript/genesis-template/.yarn/$$virtual/webpack-virtual-1f0e253e0b/0/cache/webpack-npm-4.44.1-977bccfd33-d4d140010b.zip/node_modules/webpack/hot/signal.js": "42426c4154407e9733214c6b12f0223c",
+    "/home/jonathan/Coding/Javascript/genesis-template/.yarn/$$virtual/webpack-virtual-1f0e253e0b/0/cache/webpack-npm-4.44.1-977bccfd33-d4d140010b.zip/node_modules/webpack/hot/log-apply-result.js": "cefa93ea0f72056f3fc4b2d7f2a06b43",
+    "external \"webpack-hot-middleware\"": "56b94632d00d88c641450899109ef1cd",
+    "/home/jonathan/Coding/Javascript/genesis-template/package.json": "3250305b46caadc2b93ad482017d73a5",
+    "external \"path\"": "8b0dbcda519ad22a58f8c5993fc75966",
+    "external \"source-map-support/register\"": "f07792d52311ae31dba4fc63e37de59a",
+    "/home/jonathan/Coding/Javascript/genesis-template/.yarn/$$virtual/babel-loader-virtual-3d45f1f2d9/0/cache/babel-loader-npm-8.1.0-e8c38740ba-f7b236a5f7.zip/node_modules/babel-loader/lib/index.js??ref--4-0!/home/jonathan/Coding/Javascript/genesis-template/.yarn/$$virtual/eslint-loader-virtual-177c302b39/0/cache/eslint-loader-npm-4.0.2-0ac00b0841-2f1ecbdd07.zip/node_modules/eslint-loader/dist/cjs.js??ref--4-1!/home/jonathan/Coding/Javascript/genesis-template/src/backend/api/user.api.js": "31e47ba7a12fb0266cd872a98a3a559a",
+    "external \"fs-extra\"": "cad55f30a7ee24ca13ecc6b7e793d771"
+  },
+  "chunkHashs": {
+    "1": "c856f762db46807e15d7fedf0dfa449d",
+    "3": "832830a9db68219710bd06d04aeca4c6"
+  },
+  "chunkModuleIds": {
+    "1": [
+      "04yP"
+    ],
+    "3": [
+      0,
+      "1/b9",
+      "25Ux",
+      "48xH",
+      "4Eae",
+      "7WL4",
+      "8nhq",
+      "9eaW",
+      "ANbG",
+      "KEll",
+      "NLsH",
+      "QBCu",
+      "ZEFf",
+      "ZapT",
+      "ZiWs",
+      "aVTm",
+      "ds6G",
+      "fMUT",
+      "kiQV",
+      "oyvS",
+      "pPgM",
+      "wFbp",
+      "yZUj"
+    ]
+  },
+  "mini-css-extract-plugin .yarn/$$virtual/css-loader-virtual-92b2dea85b/0/cache/css-loader-npm-4.2.1-c1cda84612-bd8188efac.zip/node_modules/css-loader/dist/cjs.js!.yarn/$$virtual/vue-loader-virtual-7f04b13adf/0/cache/vue-loader-npm-15.9.3-4ca89c7e4b-bc7d4c63e0.zip/node_modules/vue-loader/lib/loaders/stylePostLoader.js!.yarn/cache/postcss-loader-npm-3.0.0-f4ab99b685-50b2d8892d.zip/node_modules/postcss-loader/src/index.js??ref--2-2!.yarn/cache/resolve-url-loader-npm-3.1.1-cf1a268137-7b113ac9e6.zip/node_modules/resolve-url-loader/index.js!.yarn/$$virtual/sass-loader-virtual-1020a87901/0/cache/sass-loader-npm-9.0.3-a2f9304da9-5ce94bb670.zip/node_modules/sass-loader/dist/cjs.js??ref--3-1!.yarn/$$virtual/vue-loader-virtual-7f04b13adf/0/cache/vue-loader-npm-15.9.3-4ca89c7e4b-bc7d4c63e0.zip/node_modules/vue-loader/lib/index.js??vue-loader-options!src/frontend/pages/main-page.vue?vue&type=style&index=0&lang=scss&module=true&": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {
+          "0 mini-css-extract-plugin": 0
+        },
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ]
+}

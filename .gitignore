@@ -1,0 +1,14 @@
+# npm
+/node_modules/
+
+# yarn
+/.yarn/
+/.pnp.js
+.yarnrc.yml
+
+# build outputs
+/dist/
+/build/.cache/
+
+# IDE files
+/.idea/workspace.xml
