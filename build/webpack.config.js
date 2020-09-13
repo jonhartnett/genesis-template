@@ -342,7 +342,6 @@ module.exports = (env, argv) => {
                 loader: 'webpack-error-loader',
                 options: {
                     message(){
-                        console.log(Object.keys(this));
                         return `Sandbox: cannot import '${info.resource}' from '${info.issuer}'`;
                     }
                 }
