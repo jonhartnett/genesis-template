@@ -113,13 +113,7 @@ module.exports = (env, argv) => {
                 if(path !== mainPath)
                     return callback();
                 return callback(null, path, 'commonjs');
-            },
-            ...select(info.stack, {
-                electron: () => [{
-                    electron: 'commonjs2 electron'
-                }],
-                default: () => []
-            })
+            }
         ],
         resolveLoader: {
             plugins: []
@@ -187,6 +181,10 @@ module.exports = (env, argv) => {
     //node needs a little help to support source maps
     if(info.side === 'backend')
         config.entry.unshift('source-map-support/register');
+
+    //don't bundle electron itself on the electron stack
+    if(info.stack === 'electron')
+        config.externals.push({electron: 'commonjs2 electron'});
 
     //region Babel: modern Js transpiling
     {
