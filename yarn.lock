@@ -1335,7 +1335,7 @@ __metadata:
     webpack-merge: ^5.1.2
     webpack-node-externals: ^2.5.1
     webpack-pnp-externals: ^1.0.0
-    webpack-recursive-loader: ^1.0.4
+    webpack-recursive-loader: ^1.0.5
     ws: ^7.3.1
   dependenciesMeta:
     app-builder-lib:
@@ -10804,16 +10804,16 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"webpack-recursive-loader@npm:^1.0.0, webpack-recursive-loader@npm:^1.0.4":
-  version: 1.0.4
-  resolution: "webpack-recursive-loader@npm:1.0.4"
+"webpack-recursive-loader@npm:^1.0.0, webpack-recursive-loader@npm:^1.0.5":
+  version: 1.0.5
+  resolution: "webpack-recursive-loader@npm:1.0.5"
   dependencies:
     "@babel/generator": ^7.11.4
     "@babel/runtime": ^7.11.2
     "@babel/types": ^7.11.0
     loader-utils: ^2.0.0
     miniglob: ^0.1.1
-  checksum: bec1249ff550a9a5ccacad9b5a2044fbc2a3a76061202eca842d05f79eabb681d36e3d23171c926fb9c8448e8323703f2e8b23bedeb03b59c3a51f7b4338c8a5
+  checksum: 0d897984e8dea565cafeb8fd94b26f66cc496ce95d885bd62d5941bde5d7d7415699f3feedbfbd5ad17963937e86ece0219667c9b986854f2ef56b18f8dc4449
   languageName: node
   linkType: hard
 

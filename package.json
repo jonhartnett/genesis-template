@@ -12,6 +12,7 @@
     },
     "scripts": {
         "develop": "node build/main.js --variant=development develop",
+        "develop:web": "node build/main.js --variant=development develop --stack=web",
         "build": "node build/main.js --variant=production build",
         "build:dev": "node build/main.js --variant=development build",
         "package": "node build/main.js --variant=production package",
@@ -83,7 +84,7 @@
         "webpack-merge": "^5.1.2",
         "webpack-node-externals": "^2.5.1",
         "webpack-pnp-externals": "^1.0.0",
-        "webpack-recursive-loader": "^1.0.4"
+        "webpack-recursive-loader": "^1.0.5"
     },
     "sideEffects": false,
     "dependenciesMeta": {
